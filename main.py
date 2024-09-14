@@ -10,8 +10,8 @@ pygame.display.set_caption("Игра Тир")
 icon = pygame.image.load("img/XL.JPG")
 pygame.display.set_icon(icon)
 target_image = pygame.image.load("img/target.png")
-target_width = 50
-target_height = 50
+target_width = 80
+target_height = 80
 
 target_x =  random.randint(0, SCREEN_WIDTH - target_width)
 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
